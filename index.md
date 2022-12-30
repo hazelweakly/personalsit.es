@@ -1,7 +1,6 @@
 ---
 title: 'Personal sites are awesome!'
 layout: 'layouts/home.njk'
-social: { github: 'https://github.com/xdesro/personalsit.es' }
 eleventyExcludeFromCollections: true
 ---
 

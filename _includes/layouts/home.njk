@@ -24,10 +24,10 @@
                 {% endfor %}
             </ul>
             {{ content | safe }}
-            <nav class="filters-nav">
+            <nav role="navigation" class="filters-nav">
+                <a class="filter-link" href="/">View all sites</a>
                 <a class="filter-link" href="/with-feed">View only sites with RSS feeds</a>
                 <a class="filter-link" href="/tags">View all tags</a>
-                {# <a class="filter-link" href="/alphabetical">View sites in alphabetical order</a> #}
             </nav>
         </article>
     </header>
