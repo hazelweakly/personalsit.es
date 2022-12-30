@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.allTags
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag.slug}}/
+layout: "layouts/tag.njk"
+---
+
+<ul class="items">
+  {% set taglist = collections.tagMap[tag.slug] %}
+  {% for item in taglist %}
+    {% include 'partials/list-item.njk' %} 
+  {% endfor %}
+</ul>

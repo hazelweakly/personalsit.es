@@ -1,5 +1,6 @@
 // From: https://github.com/Daplie/knuth-shuffle/blob/master/index.js
-module.exports = function shuffle(items) {
+module.exports = function shuffle(is) {
+    var items = is.slice();
     var currentIndex = items.length,
         temporaryValue,
         randomIndex;

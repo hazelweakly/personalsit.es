@@ -157,7 +157,7 @@ a {
 
 .filter-link {
   text-transform: uppercase;
-  font-size: .75rem;
+  font-size: 0.75rem;
   cursor: pointer;
   text-transform: uppercase;
   color: var(--color__text--secondary);
@@ -170,14 +170,13 @@ a {
   text-decoration: underline;
 }
 
-
 .filter-page-header {
   grid-column: 1;
 }
 
 .filter-page-header__return-link {
   text-transform: uppercase;
-  font-size: .75rem;
+  font-size: 0.75rem;
   cursor: pointer;
   text-transform: uppercase;
   color: var(--color__text--secondary);
@@ -201,7 +200,6 @@ a {
   display: grid;
   grid-gap: 2rem;
   color: var(--color__text--secondary);
-
 }
 
 .social-links {
@@ -399,6 +397,9 @@ a {
   font-size: 0.75rem;
   text-transform: uppercase;
   color: var(--color__text--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2ex;
 }
 
 .item-tray__column--tags {
