@@ -29,6 +29,7 @@
                 <li><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
               {% endfor %}
             </ul>
+            </div>
             <div class="item-tray__column item-tray__column--links">
                 {% if item.data.updatesFeed %}
                     <a class="item-tray__link item-tray__link--feed" href="{{ item.data.updatesFeed }}">
